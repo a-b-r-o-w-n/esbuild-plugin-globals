@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "esbuild plugin that provides Webpack's externals functionality.",
   "main": "dist/plugin.js",
+  "types": "plugin.d.ts",
+  "files": [
+    "dist",
+    "plugin.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",

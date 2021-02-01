@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": ".",
+    "emitDeclarationOnly": true
+  },
+  "files": ["src/plugin.ts"]
+}

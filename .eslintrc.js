@@ -10,9 +10,6 @@ module.exports = {
     "prettier/@typescript-eslint",
   ],
   plugins: ["import"],
-  settings: {
-    "import/resolver": "typescript",
-  },
   env: {
     es6: true,
     node: true,

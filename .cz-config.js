@@ -18,6 +18,7 @@ module.exports = {
       name: "perf:     A code change that improves performance",
     },
     { value: "build", name: "build:     Modification to build tooling" },
+    { value: "deps", name: "deps:     Dependencies" },
     { value: "test", name: "test:     Adding missing tests" },
     {
       value: "chore",

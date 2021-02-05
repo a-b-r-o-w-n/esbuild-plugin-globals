@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-globals",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "esbuild plugin that provides Webpack's externals functionality.",
   "main": "dist/plugin.js",
   "types": "dist/plugin.d.ts",

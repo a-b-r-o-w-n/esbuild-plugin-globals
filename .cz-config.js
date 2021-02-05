@@ -17,6 +17,7 @@ module.exports = {
       value: "perf",
       name: "perf:     A code change that improves performance",
     },
+    { value: "build", name: "build:     Modification to build tooling" },
     { value: "test", name: "test:     Adding missing tests" },
     {
       value: "chore",

@@ -13,7 +13,7 @@ const generateResolveFilter = (globals: PluginGlobalsOptions): RegExp => {
 
 const generateExport = (globals: PluginGlobalsOptions, name: string) => {
   const match = Object.entries(globals).find(([pattern]) => {
-    return new RegExp(pattern).test(name);
+    return new RegExp(`^${pattern}$`).test(name);
   });
 
   if (match) {

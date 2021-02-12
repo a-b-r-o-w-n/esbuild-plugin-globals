@@ -13,9 +13,10 @@
     "LICENSE"
   ],
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "build": "npm run clean && tsc",
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc"
+    "commit": "git-cz",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -60,8 +61,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
